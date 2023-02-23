@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import Router from "./routes/Router";
-import './styles.scss';
-
-
+import "./styles.scss";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +9,3 @@ root.render(
     <Router />
   </React.StrictMode>
 );
-
-
-reportWebVitals();
