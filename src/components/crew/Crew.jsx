@@ -3,17 +3,14 @@ import { BsCircleFill } from "react-icons/bs";
 import Nav from "../nav/Nav";
 import "./style.scss";
 
-// import douglas from "../../data/assets/crew/image-douglas-hurley.png";
-// import mark from "../../data/assets/crew/image-mark-shuttleworth.png";
-// import victor from "../../data/assets/crew/image-victor-glover.png";
-// import anousheh from "../../data/assets/crew/image-anousheh-ansari.png";
+
 
 import data from "../../data/data.json";
 
 export default function Crew() {
   const [crew] = useState(data.crew);
   const [value, setValue] = useState(0);
-  // const [personas] = [douglas, mark, victor, anousheh];
+  
 
   const { name, images, role, bio } = crew[value];
 
