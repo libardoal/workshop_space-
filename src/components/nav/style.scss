@@ -2,14 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //align-items: center;
-  // position: absolute;
+ 
   width: 100%;
   margin: 0 auto;
-  //height: 150px;
-  // left: 55px;
-  // top: 40px;
-  //position: absolute;
+  
 
   height: 120px;
   left: 55px;
@@ -46,12 +42,5 @@
     }
   }
 }
-// @media screen and (max-width: 768px) {
-//   .nav {
-//     display: none;
-//     flex-direction: column-reverse;
-//     &__list {
-//       display: block;
-//     }
-//   }
-// }
+
+
